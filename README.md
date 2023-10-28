@@ -66,13 +66,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-## License
-
-Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Why reinvent the wheel?
 
 You may be wondering why PurrPass exists when other password managers are available. PurrPass was created to provide:
@@ -86,6 +79,14 @@ You may be wondering why PurrPass exists when other password managers are availa
 **4. Password Security:** Strong encryption ensures that your data remains secure.
 
 **5. Data Backup and Accessibility:** Backup and synchronization options keep your data safe and accessible.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
