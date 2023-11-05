@@ -1,4 +1,4 @@
-module github.com/XiroXD/PurrPass.git
+module github.com/XiroXD/PurrPass
 
 go 1.21
 
