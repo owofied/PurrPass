@@ -5,7 +5,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var DB *gorm.DB
+var Conn *gorm.DB
 
 func ConnectPostgres() {
 	dsn := "host=localhost user=postgres password=postgres dbname=postgres port=5432 sslmode=disable TimeZone=Asia/Shanghai"
@@ -14,5 +14,5 @@ func ConnectPostgres() {
 		panic(err)
 	}
 
-	DB = db
+	Conn = db
 }
