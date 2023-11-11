@@ -3,14 +3,16 @@ package main
 import (
 	"fmt"
 
+	"github.com/joho/godotenv"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	
+
 	"github.com/XiroXD/PurrPass/router"
 )
 
 func main() {
-
+	godotenv.Load()
 
 	app := fiber.New()
 
