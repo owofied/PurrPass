@@ -3,12 +3,15 @@ package main
 import (
 	"fmt"
 
-	"github.com/XiroXD/PurrPass/router"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	
+	"github.com/XiroXD/PurrPass/router"
 )
 
 func main() {
+
+
 	app := fiber.New()
 
 	app.Use(logger.New())
