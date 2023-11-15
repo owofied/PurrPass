@@ -10,10 +10,12 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/logger"
 
 	"github.com/XiroXD/PurrPass/router"
+	"github.com/XiroXD/PurrPass/utils"
 )
 
 func init() {
 	godotenv.Load()
+	utils.CheckRequiredVariables()
 }
 
 func main() {
