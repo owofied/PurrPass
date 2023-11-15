@@ -11,9 +11,11 @@ import (
 	"github.com/XiroXD/PurrPass/router"
 )
 
-func main() {
+func init() {
 	godotenv.Load()
+}
 
+func main() {
 	app := fiber.New()
 
 	app.Use(logger.New())
