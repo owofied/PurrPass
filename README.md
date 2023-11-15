@@ -16,8 +16,6 @@
     <br />
     <a href="https://github.com/XiroXD/purrpass"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/XiroXD/purrpass">View Demo</a>
-    ·
     <a href="https://github.com/XiroXD/purrpass/issues">Report Bug</a>
     ·
     <a href="https://github.com/XiroXD/purrpass/issues">Request Feature</a>
