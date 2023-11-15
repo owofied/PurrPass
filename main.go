@@ -2,18 +2,26 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/joho/godotenv"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 
+	"github.com/XiroXD/PurrPass/database"
 	"github.com/XiroXD/PurrPass/router"
+	"github.com/XiroXD/PurrPass/utils"
 )
 
-func main() {
+func init() {
 	godotenv.Load()
+	utils.CheckRequiredVariables()
 
+	database.ConnectPostgres()
+}
+
+func main() {
 	app := fiber.New()
 
 	app.Use(logger.New())
@@ -28,5 +36,5 @@ func main() {
 		})
 	})
 
-	app.Listen(":3000")
+	app.Listen(":" + os.Getenv("PORT"))
 }
