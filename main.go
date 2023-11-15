@@ -9,6 +9,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 
+	"github.com/XiroXD/PurrPass/database"
 	"github.com/XiroXD/PurrPass/router"
 	"github.com/XiroXD/PurrPass/utils"
 )
@@ -16,6 +17,8 @@ import (
 func init() {
 	godotenv.Load()
 	utils.CheckRequiredVariables()
+
+	database.ConnectPostgres()
 }
 
 func main() {
