@@ -74,7 +74,7 @@ You may be wondering why PurrPass exists when other password managers are availa
 
 **2. Open Source Transparency:** The source code is open for review, building trust and allowing community contributions.
 
-**3. User-Centered Design:** PurrPass' user-friendly interface is designed for ease of use.
+**3. User-Centered Design:** PurrPass user-friendly interface is designed for ease of use.
 
 **4. Password Security:** Strong encryption ensures that your data remains secure.
 
