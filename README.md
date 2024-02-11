@@ -25,7 +25,7 @@
 
 
 # ⚠️ Project temporarily on hold ⚠️
-I'm currently more focused on my other project, which temporarily does not allow me to maintain PurrPass. <br/> If you're interested, you can find it [here](https://sharify.in).
+I'm currently more focused on my other project, which temporarily does not allow me to maintain PurrPass. <br/> If you're interested, you can find it [here](https://github.com/VigilantTF).
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
