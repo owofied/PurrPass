@@ -10,22 +10,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/XiroXD/purrpass">
+  <a href="https://github.com/owofied/purrpass">
     <img src="img/banner.png" alt="Logo">
   </a>
   <p align="center">
     <br />
-    <a href="https://github.com/XiroXD/purrpass"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/owofied/purrpass"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/XiroXD/purrpass/issues">Report Bug</a>
+    <a href="https://github.com/owofied/purrpass/issues">Report Bug</a>
     ·
-    <a href="https://github.com/XiroXD/purrpass/issues">Request Feature</a>
+    <a href="https://github.com/owofied/purrpass/issues">Request Feature</a>
   </p>
 </div>
-
-
-# ⚠️ Project temporarily on hold ⚠️
-I'm currently more focused on my other project, which temporarily does not allow me to maintain PurrPass. <br/> If you're interested, you can find it [here](https://github.com/VigilantTF).
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -94,15 +90,15 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/XiroXD/purrpass.svg?style=for-the-badge
-[contributors-url]: https://github.com/XiroXD/purrpass/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/XiroXD/purrpass.svg?style=for-the-badge
-[forks-url]: https://github.com/XiroXD/purrpass/network/members
-[stars-shield]: https://img.shields.io/github/stars/XiroXD/purrpass.svg?style=for-the-badge
-[stars-url]: https://github.com/XiroXD/purrpass/stargazers
-[issues-shield]: https://img.shields.io/github/issues/XiroXD/purrpass.svg?style=for-the-badge
-[issues-url]: https://github.com/XiroXD/purrpass/issues
-[license-shield]: https://img.shields.io/github/license/XiroXD/purrpass.svg?style=for-the-badge
-[license-url]: https://github.com/XiroXD/purrpass/blob/master/LICENSE.txt
-[go-report-card]: https://goreportcard.com/badge/github.com/XiroXD/PurrPass?style=for-the-badge
-[go-report-card-url]: https://goreportcard.com/report/github.com/XiroXD/PurrPass
+[contributors-shield]: https://img.shields.io/github/contributors/owofied/purrpass.svg?style=for-the-badge
+[contributors-url]: https://github.com/owofied/purrpass/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/owofied/purrpass.svg?style=for-the-badge
+[forks-url]: https://github.com/owofied/purrpass/network/members
+[stars-shield]: https://img.shields.io/github/stars/owofied/purrpass.svg?style=for-the-badge
+[stars-url]: https://github.com/owofied/purrpass/stargazers
+[issues-shield]: https://img.shields.io/github/issues/owofied/purrpass.svg?style=for-the-badge
+[issues-url]: https://github.com/owofied/purrpass/issues
+[license-shield]: https://img.shields.io/github/license/owofied/purrpass.svg?style=for-the-badge
+[license-url]: https://github.com/owofied/purrpass/blob/master/LICENSE.txt
+[go-report-card]: https://goreportcard.com/badge/github.com/owofied/PurrPass?style=for-the-badge
+[go-report-card-url]: https://goreportcard.com/report/github.com/owofied/PurrPass
