@@ -3,7 +3,7 @@ package router
 import (
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/XiroXD/PurrPass/controllers"
+	"github.com/owofied/PurrPass/controllers"
 )
 
 func Setup(app *fiber.App) {

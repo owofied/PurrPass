@@ -9,9 +9,9 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 
-	"github.com/XiroXD/PurrPass/database"
-	"github.com/XiroXD/PurrPass/router"
-	"github.com/XiroXD/PurrPass/utils"
+	"github.com/owofied/PurrPass/database"
+	"github.com/owofied/PurrPass/router"
+	"github.com/owofied/PurrPass/utils"
 )
 
 func init() {
