@@ -35,7 +35,6 @@ linters:
     - forbidigo
     - forcetypeassert
     - funlen
-    - gci
     - ginkgolinter
     - gocheckcompilerdirectives
     - gochecknoglobals
@@ -52,7 +51,6 @@ linters:
     - gofumpt
     - goheader
     - goimports
-    - gomnd
     - gomoddirectives
     - gomodguard
     - goprintffuncname
@@ -66,7 +64,6 @@ linters:
     - ineffassign
     - interfacebloat
     - ireturn
-    - lll
     - loggercheck
     - maintidx
     - makezero
@@ -96,7 +93,6 @@ linters:
     - staticcheck
     - stylecheck
     - tagalign
-    - tagliatelle
     - tenv
     - testableexamples
     - testifylint
@@ -108,9 +104,6 @@ linters:
     - unparam
     - unused
     - usestdlibvars
-    - varnamelen
     - wastedassign
     - whitespace
-    - wrapcheck
-    - wsl
     - zerologlint
