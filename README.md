@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/owofied/purrpass">
-    <img src="img/banner.png" alt="Logo">
+    <img src="assets/img/banner.png" alt="Logo">
   </a>
   <p align="center">
     <br />
