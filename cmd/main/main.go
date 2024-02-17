@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/owofied/PurrPass/router"
+	"github.com/owofied/PurrPass/internal/router"
 )
 
 func main() {
