@@ -14,7 +14,7 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-If you discover a possible security vulnerability in this project, send an email to <f64o0jhyl@mozmail.com> or contact me directly on discord: `owofied`.
+If you discover a possible security vulnerability in this project, send an email to <f64o0jhyl@mozmail.com>.
 
 Please include the following information in your report
 
