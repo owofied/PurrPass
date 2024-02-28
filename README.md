@@ -48,7 +48,7 @@ If you want to build and run the project locally, run the following commands:
 ```shell
 git clone https://github.com/owofied/PurrPass.git
 cd PurrPass
-go build ./cmd/main -o ./build/purrpass
+go build ./cmd/purrpass -o ./build/purrpass
 ./build/purrpass
 ```
 
