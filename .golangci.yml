@@ -5,10 +5,6 @@ output:
   sort-results: true
 
 linters-settings:
-  wrapcheck:
-    ignorePackageGlobs:
-      - github.com/gofiber/fiber/*
-
   misspell:
     locale: US
 
