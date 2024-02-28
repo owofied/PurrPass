@@ -37,16 +37,22 @@ The motivation behind PurrPass is to provide accessible, transparent, and user-c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-<!-- ## Getting Started
+## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This section will guide you through the process of configuring, building, and running PurrPass.
 
 ### Building & Running
 
-i will do it later
+If you want to build and run the project locally, run the following commands:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+```shell
+git clone https://github.com/owofied/PurrPass.git
+cd PurrPass
+go build ./cmd/main -o ./build/purrpass
+./build/purrpass
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Why reinvent the wheel?
 
