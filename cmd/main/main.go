@@ -2,6 +2,7 @@ package main
 
 import (
 	"errors"
+	"log"
 	"os"
 
 	"github.com/labstack/echo/v4"
@@ -20,6 +21,9 @@ func main() {
 
 	if _, err = os.Stat(confDir + "/PurrPass/config.json"); errors.Is(err, os.ErrNotExist) {
 		config.InitializeConfig()
+
+		log.Printf("Config file created at %s/PurrPass/config.json\n", confDir)
+		os.Exit(0)
 	}
 
 	conf := config.GetConfig()
