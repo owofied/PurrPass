@@ -47,8 +47,11 @@ If you want to build and run the project locally, run the following commands:
 ```shell
 git clone https://github.com/owofied/PurrPass.git
 cd PurrPass
-go build ./cmd/purrpass -o ./build/purrpass
-./build/purrpass
+cargo build --release
+./target/release/purrpass
+# Or without the --release flag for unoptimized build
+cargo build
+./target/debug/purrpass
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
