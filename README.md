@@ -5,7 +5,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![Go Report Card][go-report-card]][go-report-card-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -90,5 +89,3 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 [issues-url]: https://github.com/owofied/purrpass/issues
 [license-shield]: https://img.shields.io/github/license/owofied/purrpass.svg?style=for-the-badge
 [license-url]: https://github.com/owofied/purrpass/blob/master/LICENSE.txt
-[go-report-card]: https://goreportcard.com/badge/github.com/owofied/PurrPass?style=for-the-badge
-[go-report-card-url]: https://goreportcard.com/report/github.com/owofied/PurrPass
