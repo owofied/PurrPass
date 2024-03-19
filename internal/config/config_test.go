@@ -1,9 +1,11 @@
-package config
+package config_test
 
 import (
 	"errors"
 	"os"
 	"testing"
+
+	"github.com/owofied/PurrPass/internal/config"
 )
 
 func TestInitializeConfig(t *testing.T) {
@@ -11,16 +13,16 @@ func TestInitializeConfig(t *testing.T) {
 
 	// Use a temporary directory for testing
 	// This variable is defined in config.go at line 40
-	userConfigDirFunc = func() (string, error) {
+	config.UserConfigDirFunc = func() (string, error) {
 		return tempDir, nil
 	}
 
-	d, _ := userConfigDirFunc()
+	d, _ := config.UserConfigDirFunc()
 
 	_ = os.Remove(d + "/PurrPass/config.json")
 	_ = os.Remove(d + "/PurrPass")
 
-	InitializeConfig()
+	config.InitializeConfig()
 
 	dir, err := os.Stat(d + "/PurrPass")
 	if errors.Is(err, os.ErrNotExist) {

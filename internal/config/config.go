@@ -37,12 +37,11 @@ func (c Config) New() Config {
 	}
 }
 
-var userConfigDirFunc = func() (string, error) {
-	return os.UserConfigDir()
-}
+//nolint:gochecknoglobals // Required for mocking
+var UserConfigDirFunc = os.UserConfigDir
 
 func InitializeConfig() {
-	dir, err := userConfigDirFunc()
+	dir, err := UserConfigDirFunc()
 	if err != nil {
 		panic(err)
 	}
