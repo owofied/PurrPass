@@ -37,8 +37,12 @@ func (c Config) New() Config {
 	}
 }
 
+var userConfigDirFunc = func() (string, error) {
+	return os.UserConfigDir()
+}
+
 func InitializeConfig() {
-	dir, err := os.UserConfigDir()
+	dir, err := userConfigDirFunc()
 	if err != nil {
 		panic(err)
 	}
