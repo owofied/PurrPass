@@ -63,7 +63,7 @@ func InitializeConfig() {
 }
 
 func GetConfig() *Config {
-	cfgDir, err := os.UserConfigDir()
+	cfgDir, err := UserConfigDirFunc()
 	if err != nil {
 		panic(err)
 	}
